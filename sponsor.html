@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Valid MultiGroup | Sponsorship Enquiries</title>
+  <meta name="description" content="Partner with Valid MultiGroup. Explore sponsorship tiers, benefits, FAQs, and submit an enquiry." />
+  <meta name="keywords" content="Valid MultiGroup, sponsorship, partnership, brand collaboration, sponsorship enquiry, sponsorship tiers" />
+  <meta name="author" content="Randima Ndivho" />
+  <meta property="og:title" content="Valid MultiGroup Sponsorship" />
+  <meta property="og:description" content="Explore sponsorship opportunities with Valid MultiGroup and grow your brand impact." />
+  <meta property="og:image" content="Assets/Valid MultiGroup Logo.png" />
+  <meta property="og:type" content="website" />
+  <link rel="icon" href="Assets/Valid MultiGroup Logo.png" type="image/x-icon" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="Css/style.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+
+  <!-- HEADER -->
+<header role="banner">
+  <img src="Assets/Valid MultiGroup Logo.png" alt="Valid MultiGroup company logo" class="logo" />
+
+  <!-- Hamburger button -->
+  <button id="hamburger" aria-label="Toggle navigation" aria-expanded="false">
+    <i class="fas fa-bars"></i>
+  </button>
+
+  <!-- Navigation wrapper -->
+  <nav id="mainNav" role="navigation" aria-label="Main navigation">
+    <ul>
+     
+      
+      <li><a href="Pages/enquiry.html">Enquiry</a></li>
+      <li><a href="sponsor.html" class="active">Sponsorship</a></li>
+    </ul>
+  </nav>
+</header>
+
+  <!-- MAIN CONTENT -->
+<main role="main">
+  <!-- Hero Section -->
+  <section class="hero" aria-label="Sponsorship hero">
+    <h1>Sponsorship Enquiries</h1>
+    <img src="Assets/Sponsorship Image.png" alt="Sponsorship" class="service-detail-img" tabindex="0"/>
+    <p>Partner with Valid MultiGroup to power innovation, accessibility, and community impact.</p>
+  </section>
+
+  <!-- Sponsorship Tiers -->
+  <section class="services" aria-label="Sponsorship tiers">
+    <h2>Our Sponsorship Tiers</h2>
+    <div class="service-images">
+      <div class="service-img" tabindex="0">
+        <h3>Community Ally</h3>
+        <p>Logo placement, quarterly impact summary, and community shoutouts.</p>
+      </div>
+      <div class="service-img" tabindex="0">
+        <h3>Build Partner</h3>
+        <p>Dedicated case study, co-branded components, and quarterly strategy calls.</p>
+      </div>
+      <div class="service-img" tabindex="0">
+        <h3>Legacy Sponsor</h3>
+        <p>Year-long narrative integration, premium placement, and KPI dashboard.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sponsorship Enquiry Form -->
+<section class="enquiry-form-section" aria-label="Sponsorship enquiry form">
+  <h2 class="enquiry-form-title">Submit Your Sponsorship Enquiry</h2>
+  <form class="enquiry-form">
+    <div class="form-group">
+      <label for="organization">Organization Name</label>
+      <input type="text" id="organization" name="organization" class="form-control" placeholder="Your company name" required />
+    </div>
+
+    <div class="form-group">
+      <label for="fullname">Your Name</label>
+      <input type="text" id="fullname" name="fullname" class="form-control" placeholder="Full name" required />
+    </div>
+
+    <div class="form-group">
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" class="form-control" placeholder="you@company.com" required />
+    </div>
+
+    <div class="form-group">
+      <label for="tier">Preferred Tier</label>
+   
+<select id="tier" name="tier" class="form-control" required>
+  <option value="">Select a tier</option>
+  <option value="Community Ally">Community Ally</option>
+  <option value="Build Partner">Build Partner</option>
+  <option value="Legacy Sponsor">Legacy Sponsor</option>
+</select>
+</div>
+
+<div class="form-group">
+  <label for="goals">Your Sponsorship Goals</label>
+  <textarea id="goals" name="goals" class="form-control" placeholder="Brand awareness, developer hiring, accessibility outcomes..." required></textarea>
+</div>
+
+<button type="submit" class="submit-button">Send Enquiry</button>
+</form>
+
+<!-- Success message appears here -->
+<div id="form-success" class="form-success-message" style="display: none;">
+  <p>Submission successful! We'll get back to you shortly.</p>
+</div>
+
+ <!-- FAQ -->
+<section class="services" aria-label="Sponsorship FAQ">
+  <h2>Frequently Asked Questions</h2>
+
+  <div class="accordion-item">
+    <button class="accordion-toggle" aria-expanded="false">
+      How do you measure impact? <i class="fas fa-chevron-down"></i>
+    </button>
+    <div class="accordion-content">
+      <p>We provide quarterly reports with reach, engagement, accessibility scores, and conversions.</p>
+    </div>
+  </div>
+
+  <div class="accordion-item">
+    <button class="accordion-toggle" aria-expanded="false">
+      Can we co-create content? <i class="fas fa-chevron-down"></i>
+    </button>
+    <div class="accordion-content">
+      <p>Yes, Build Partner and Legacy tiers include co-creation opportunities.</p>
+    </div>
+  </div>
+
+  <div class="accordion-item">
+    <button class="accordion-toggle" aria-expanded="false">
+      Do you accept in-kind sponsorships? <i class="fas fa-chevron-down"></i>
+    </button>
+    <div class="accordion-content">
+      <p>Yes, tools, credits, and services are welcome with aligned KPIs.</p>
+    </div>
+  </div>
+
+  <div class="accordion-item">
+    <button class="accordion-toggle" aria-expanded="false">
+      What’s the difference between tiers? <i class="fas fa-chevron-down"></i>
+    </button>
+    <div class="accordion-content">
+      <p>Each tier offers different levels of visibility, co-creation, and reporting. Legacy tier includes full branding integration.</p>
+    </div>
+  </div>
+
+  <div class="accordion-item">
+    <button class="accordion-toggle" aria-expanded="false">
+      Can I sponsor anonymously? <i class="fas fa-chevron-down"></i>
+    </button>
+    <div class="accordion-content">
+      <p>Yes, we respect privacy. Anonymous sponsors can still receive impact reports and internal recognition.</p>
+    </div>
+  </div>
+
+  <div class="accordion-item">
+    <button class="accordion-toggle" aria-expanded="false">
+      Do you offer exclusivity? <i class="fas fa-chevron-down"></i>
+    </button>
+    <div class="accordion-content">
+      <p>Yes, exclusivity is available for select categories and campaigns. Contact us to reserve a branded slot.</p>
+    </div>
+  </div>
+</section>
+
+
+</main>
+
+  <!-- FOOTER -->
+<footer class="footer" role="contentinfo">
+  <section id="social-media">
+    <h2>Follow validmultigroup</h2>
+    <ul style="list-style: none; padding: 0; display: flex; gap: 20px;">
+      <li><span title="Coming Soon"><i class="fab fa-twitter"></i> Twitter (Coming Soon)</span></li>
+      <li><span title="Coming Soon"><i class="fab fa-instagram"></i> Instagram (Coming Soon)</span></li>
+      <li><span title="Coming Soon"><i class="fab fa-youtube"></i> YouTube (Coming Soon)</span></li>
+      <li><span title="Coming Soon"><i class="fas fa-globe"></i> Wikipedia (Coming Soon)</span></li>
+    </ul>
+  </section>
+
+  <div id="datetime" class="footer-time"></div>
+
+  <p>
+    &copy; <span id="year"></span> Valid MultiGroup. All Rights Reserved. 
+    Empowering innovation across technology, media, design, and business. 
+    Built with purpose in South Africa.
+  </p>
+  <a href="Pages/about.html">
+    Learn more <i class="fas fa-arrow-right"></i>
+  </a>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Volunteering | Valid MultiGroup</title>
+  <meta name="description" content="Join Valid MultiGroup volunteering opportunities and contribute to innovation and community growth." />
+  <meta name="keywords" content="Valid MultiGroup volunteering, community, innovation, contribute" />
+  <meta name="author" content="Randima Ndivho" />
+  <meta property="og:title" content="Volunteering - Valid MultiGroup" />
+  <meta property="og:description" content="Be part of our mission by volunteering your skills and time." />
+  <meta property="og:image" content="Assets/Valid MultiGroup Logo.png" />
+  <meta property="og:type" content="website" />
+  <link rel="icon" href="Assets/Valid MultiGroup Logo.png" type="image/x-icon" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="../Css/style.css" />
+  <script defer src="../script.js"></script>
+</head>
+<body>
+
+<header role="banner">
+  <img src="Assets/Valid MultiGroup Logo.png" alt="Valid MultiGroup company logo" class="logo" width="50" height="50" />
+
+  <!-- Hamburger button for mobile navigation -->
+  <button id="hamburger" aria-label="Toggle navigation" aria-expanded="false">
+    <i class="fas fa-bars"></i>
+  </button>
+
+  <!-- Navigation wrapper -->
+  <nav id="mainNav" role="navigation" aria-label="Main navigation">
+    <ul>
+      <li><a href="Pages/enquiry.html">Enquiry</a></li>
+      <li><a href="volunteer.html" class="active">Volunteering</a></li>
+    </ul>
+  </nav>
+</header>
+
+<!-- MAIN CONTENT -->
+<main role="main">
+  <!-- Intro Section -->
+  <section class="services" aria-labelledby="volunteer-heading">
+    <h1 id="volunteer-heading">Volunteering</h1>
+    <img src="Assets/Volunteer Image.png" alt="Volunteering" class="service-detail-img" tabindex="0"/>
+    <p>Be part of our mission by volunteering your skills and time to support innovation and community growth.</p>
+  </section>
+
+  <!-- Volunteering Form -->
+  <section class="enquiry-form-section" aria-label="Volunteering form">
+    <h2 class="enquiry-form-title">Submit Your Volunteering Enquiry</h2>
+    <form class="enquiry-form">
+      <!-- Name -->
+      <div class="form-group">
+        <label for="fullname">Your Name</label>
+        <input type="text" id="fullname" name="fullname" class="form-control" placeholder="Full name" required />
+      </div>
+
+      <!-- Email -->
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" class="form-control" placeholder="you@example.com" required />
+      </div>
+
+      <!-- Skills -->
+      <div class="form-group">
+        <label for="skills">Your Skills</label>
+        <input type="text" id="skills" name="skills" class="form-control" placeholder="Design, development, content creation..." required />
+      </div>
+
+      <!-- Availability -->
+      <div class="form-group">
+        <label for="availability">Availability</label>
+        <select id="availability" name="availability" class="form-control" required>
+          <option value="">Select availability</option>
+          <option value="3 hours per week">3 hours per week</option>
+          <option value="Flexible">Flexible</option>
+          <option value="Remote">Remote</option>
+        </select>
+      </div>
+
+      <!-- Motivation -->
+      <div class="form-group">
+        <label for="motivation">Why do you want to volunteer?</label>
+        <textarea id="motivation" name="motivation" class="form-control" placeholder="Share your goals and motivation..." required></textarea>
+      </div>
+
+      <!-- Submit button -->
+      <button type="submit" class="submit-button">Send Enquiry</button>
+    </form>
+
+    <!-- Success message -->
+    <div id="form-success" class="form-success-message" style="display: none;">
+      <p>Submission successful! We'll get back to you shortly.</p>
+    </div>
+  </section>
+
+  <!-- FAQ Accordion -->
+  <section class="accordion-section" aria-label="Volunteering FAQs">
+    <h2>Frequently Asked Questions</h2>
+
+    <!-- Accordion Item 1 -->
+    <div class="accordion-item">
+      <button class="accordion-toggle" aria-expanded="false">
+        <span>How can I volunteer?</span>
+        <i class="fas fa-chevron-down"></i>
+      </button>
+      <div class="accordion-content">
+        <p>You can sign up via our enquiry form and choose "Volunteering" as your area of interest.</p>
+      </div>
+    </div>
+
+    <!-- Accordion Item 2 -->
+    <div class="accordion-item">
+      <button class="accordion-toggle" aria-expanded="false">
+        <span>What skills are needed?</span>
+        <i class="fas fa-chevron-down"></i>
+      </button>
+      <div class="accordion-content">
+        <p>We welcome skills in design, development, content creation, and community outreach.</p>
+      </div>
+    </div>
+
+    <!-- Accordion Item 3 -->
+    <div class="accordion-item">
+      <button class="accordion-toggle" aria-expanded="false">
+        <span>Is there a minimum time commitment?</span>
+        <i class="fas fa-chevron-down"></i>
+      </button>
+      <div class="accordion-content">
+        <p>We recommend at least 3 hours per week, but flexible arrangements are available based on your availability.</p>
+      </div>
+    </div>
+
+    <!-- Accordion Item 4 -->
+    <div class="accordion-item">
+      <button class="accordion-toggle" aria-expanded="false">
+        <span>Can I volunteer remotely?</span>
+        <i class="fas fa-chevron-down"></i>
+      </button>
+      <div class="accordion-content">
+        <p>Yes, many roles are remote-friendly, especially those involving design, writing, and digital outreach.</p>
+      </div>
+    </div>
+
+    <!-- Accordion Item 5 -->
+    <div class="accordion-item">
+      <button class="accordion-toggle" aria-expanded="false">
+        <span>Will I receive training?</span>
+        <i class="fas fa-chevron-down"></i>
+      </button>
+      <div class="accordion-content">
+        <p>Yes, all volunteers receive onboarding and access to resources tailored to their role and goals.</p>
+      </div>
+    </div>
+
+    <!-- Accordion Item 6 -->
+    <div class="accordion-item">
+      <button class="accordion-toggle" aria-expanded="false">
+        <span>Can volunteering lead to paid opportunities?</span>
+        <i class="fas fa-chevron-down"></i>
+      </button>
+      <div class="accordion-content">
+        <p>Absolutely. Volunteers who consistently contribute may be offered paid roles or project-based contracts.</p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- FOOTER -->
+<footer class="footer" role="contentinfo">
+  <!-- Social Media Links -->
+  <section id="social-media">
+    <h2>Follow validmultigroup</h2>
+    <ul style="list-style: none; padding: 0; display: flex; gap: 20px;">
+      <li><span title="Coming Soon"><i class="fab fa-twitter"></i> Twitter (Coming Soon)</span></li>
+      <li><span title="Coming Soon"><i class="fab fa-instagram"></i> Instagram (Coming Soon)</span></li>
+      <li><span title="Coming Soon"><i class="fab fa-youtube"></i> YouTube (Coming Soon)</span></li>
+      <li><span title="Coming Soon"><i class="fas fa-globe"></i> Wikipedia (Coming Soon)</span></li>
+    </ul>
+  </section>
+
+  <!-- Live Date & Time -->
+  <div id="datetime" class="footer-time"></div>
+
+  <!-- Footer Text -->
+  <p>
+    &copy; <span id="year"></span> Valid MultiGroup. All Rights Reserved. 
+    Empowering innovation across technology, media, design, and business. 
+    Built with purpose in South Africa.
+  </p>
+  <a href="Pages/about.html">
+    Learn more <i class="fas fa-arrow-right"></i>
+  </a>
+</footer>
+
+</body>
+</html>

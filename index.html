@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Valid MultiGroup | Home</title>
+  <meta name="description" content="Valid MultiGroup is a multi-industry company offering services in technology, media, design, and business." />
+  <meta name="keywords" content="Valid MultiGroup, web development, app development, brand strategy, content creation, digital solutions" />
+  <meta name="author" content="Randima Ndivho" />
+  <meta property="og:title" content="Valid MultiGroup" />
+  <meta property="og:description" content="Explore our services in technology, media, design, and business." />
+  <meta property="og:image" content="Assets/Valid MultiGroup Logo.png" />
+  <meta property="og:type" content="website" />
+  <link rel="icon" href="Assets/Valid MultiGroup Logo.png" type="image/x-icon" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="Css/style.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+
+  <!-- HEADER -->
+<header role="banner">
+  <img src="Assets/Valid MultiGroup Logo.png" alt="Valid MultiGroup company logo" class="logo" />
+
+  <!-- Hamburger button -->
+  <button id="hamburger" aria-label="Toggle navigation" aria-expanded="false">
+    <i class="fas fa-bars"></i>
+  </button>
+
+  <!-- Navigation wrapper -->
+  <nav id="mainNav" role="navigation" aria-label="Main navigation">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="Pages/about.html">About Us</a></li>
+      <li><a href="Pages/contact.html">Contact</a></li>
+      <li><a href="Pages/enquiry.html">Enquiry</a></li>
+      <li><a href="Pages/service.html">Services</a></li>
+    </ul>
+  </nav>
+</header>
+
+
+
+  <!-- MAIN CONTENT -->
+  <main role="main">
+    <!-- Hero Section -->
+    <section class="hero" aria-label="Welcome section">
+      <h1>Welcome to Valid MultiGroup</h1>
+      <p>Power in Diversity, Strength in Vision</p>
+    </section>
+
+    <!-- Quick Links -->
+    <section class="quick-links" aria-label="Quick access links">
+      <div class="links">
+        <a href="Pages/service.html" class="btn-link">Our Services</a>
+        <a href="bookings.html" class="btn-link">Book an Appointment</a>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" aria-label="Service overview">
+      <h2>Our Services</h2>
+      <div class="service-images">
+        <img src="Assets/App development image.png" alt="App Development service" class="service-img" tabindex="0" />
+        <img src="Assets/Web development image.png" alt="Web Development service" class="service-img" tabindex="0" />
+        <img src="Assets/Brand strategy image.png" alt="Brand Strategy service" class="service-img" tabindex="0" />
+        <img src="Assets/Content creation image.png" alt="Content Creation service" class="service-img" tabindex="0" />
+      </div>
+    </section>
+
+    <!-- Search Section -->
+<section class="site-search" aria-label="Site search">
+  <h2>Search Our Site</h2>
+
+  <select id="searchSelect">
+    <option value="">-- Choose a keyword --</option>
+    <option value="web">Web</option>
+    <option value="development">Development</option>
+    <option value="responsive">Responsive</option>
+    <option value="design">Design</option>
+    <option value="app">App</option>
+    <option value="mobile">Mobile</option>
+    <option value="brand">Brand</option>
+    <option value="strategy">Strategy</option>
+    <option value="content">Content</option>
+    <option value="media">Media</option>
+    <option value="story">Story</option>
+    <option value="appointment">Appointment</option>
+    <option value="team">Team</option>
+    <option value="services">Services</option>
+    <option value="email">Email</option>
+    <option value="form">Form</option>
+  </select>
+
+  <input type="text" id="searchInput" placeholder="Or type a keyword..." />
+  <button onclick="searchSite()">Search</button>
+  <ul id="searchResults"></ul>
+</section>
+
+  </main>
+
+  <!-- IMAGE MODAL -->
+  <div class="image-modal" id="imageModal">
+    <img id="modalImage" src="" alt="Zoomed image" />
+  </div>
+
+  <!-- FOOTER -->
+<footer class="footer" role="contentinfo">
+  <section id="social-media">
+    <h2>Follow validmultigroup</h2>
+    <ul style="list-style: none; padding: 0; display: flex; gap: 20px;">
+<li><span title="Coming Soon"><i class="fab fa-twitter"></i> Twitter (Coming Soon)</span></li>
+<li><span title="Coming Soon"><i class="fab fa-instagram"></i> Instagram (Coming Soon)</span></li>
+<li><span title="Coming Soon"><i class="fab fa-youtube"></i> YouTube (Coming Soon)</span></li>
+<li><span title="Coming Soon"><i class="fas fa-globe"></i> Wikipedia (Coming Soon)</span></li>
+
+    </ul>
+  </section>
+
+  <!-- INSERT THIS BLOCK BELOW -->
+  <div id="datetime" class="footer-time"></div>
+  <!-- END INSERT -->
+
+  <p>
+  &copy; <span id="year"></span> Valid MultiGroup. All Rights Reserved. 
+  Empowering innovation across technology, media, design, and business. 
+  Built with purpose in South Africa.
+</p>
+<a href="Pages/about.html">
+  Learn more <i class="fas fa-arrow-right"></i>
+</a>
+
+</footer>
+
+<!-- Font Awesome CDN (place this in your <head>) -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+
+</body>
+</html>

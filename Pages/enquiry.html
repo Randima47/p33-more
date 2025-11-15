@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Enquiry | Valid MultiGroup</title>
+  <meta name="description" content="Submit an enquiry about services, volunteering, or sponsorship opportunities at Valid MultiGroup.">
+  <meta name="keywords" content="Valid MultiGroup, enquiry, services, volunteer, sponsor, contact form">
+  <meta name="author" content="Randima Ndivho">
+  <meta property="og:title" content="Enquiry - Valid MultiGroup">
+  <meta property="og:description" content="Ask us anything about our services, volunteering, or sponsorship opportunities.">
+  <meta property="og:image" content="../Assets/Valid MultiGroup Logo.png">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="../Assets/Valid MultiGroup Logo.png" type="image/x-icon" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="../Css/style.css">
+  <script defer src="../script.js"></script>
+</head>
+<body>
+
+ <!-- HEADER -->
+  <header role="banner">
+  <img src="../Assets/Valid MultiGroup Logo.png" alt="Valid MultiGroup company logo" class="logo" />
+
+  <!-- Hamburger button -->
+  <button id="hamburger" aria-label="Toggle navigation" aria-expanded="false">
+    <i class="fas fa-bars"></i>
+  </button>
+
+  <!-- Navigation wrapper -->
+  <nav id="mainNav" role="navigation" aria-label="Main navigation">
+    <ul>
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="enquiry.html">Enquiry</a></li>
+      <li><a href="service.html">Services</a></li>
+     </ul>
+  </nav>
+</header>
+
+  <!-- MAIN -->
+  <main role="main">
+    <!-- Enquiry Intro -->
+    <section class="enquiry-intro" aria-labelledby="enquiry-heading">
+      <h1 id="enquiry-heading">Enquiry</h1>
+      <p>Ask us any question you have — we are here for you.</p>
+    </section>
+
+   <!-- Enquiry Form -->
+<section class="enquiry-form" aria-label="Enquiry form">
+  <h2>Enquiry Form</h2>
+  <p>One more step to getting help.</p>
+
+  <form action="#" method="post" data-success="Your enquiry has been submitted successfully!">
+    <div id="formErrors" class="form-errors"></div>
+
+    <label for="name">Full Name</label>
+    <input type="text" id="name" name="name" required data-error="Please enter your full name.">
+
+    <label for="email">Email Address</label>
+    <input type="email" id="email" name="email" required data-error="Check your email and try again.">
+
+    <label for="phone">Phone Number</label>
+    <input type="tel" id="phone" name="phone" required data-error="Please enter a valid phone number.">
+
+  <label for="interest">Area of Interest</label>
+  <select id="interest" name="interest" required>
+  <option value="">-- Select --</option>
+  <option value="../sponsor.html">Sponsorship</option>
+  <option value="../volunteer.html">Volunteering</option>
+  <option value="service.html">service</option>
+  
+</select>
+
+
+    <label for="message">Your Enquiry</label>
+    <textarea id="message" name="message" rows="4" required data-error="Please enter your enquiry."></textarea>
+
+    <button type="submit">Submit Enquiry</button>
+  </form>
+
+  <!-- Success message -->
+  <div id="form-success" class="form-success-message" style="display:none;">
+    <p>Your enquiry has been submitted successfully!</p>
+  </div>
+</section>
+
+</section>
+  </main>
+
+  <!-- FOOTER -->
+<footer class="footer" role="contentinfo">
+  <section id="social-media">
+    <h2>Follow validmultigroup</h2>
+    <ul style="list-style: none; padding: 0; display: flex; gap: 20px;">
+      <li><span title="Coming Soon"><i class="fab fa-twitter"></i> Twitter (Coming Soon)</span></li>
+<li><span title="Coming Soon"><i class="fab fa-instagram"></i> Instagram (Coming Soon)</span></li>
+<li><span title="Coming Soon"><i class="fab fa-youtube"></i> YouTube (Coming Soon)</span></li>
+<li><span title="Coming Soon"><i class="fas fa-globe"></i> Wikipedia (Coming Soon)</span></li>
+
+    </ul>
+  </section>
+  <!-- INSERT THIS BLOCK BELOW -->
+  <div id="datetime" class="footer-time"></div>
+  <!-- END INSERT -->
+
+  <p>
+  &copy; <span id="year"></span> Valid MultiGroup. All Rights Reserved. 
+  Empowering innovation across technology, media, design, and business. 
+  Built with purpose in South Africa.
+</p>
+<a href="about.html">
+  Learn more <i class="fas fa-arrow-right"></i>
+</a>
+</footer>
+
+<!-- Font Awesome CDN (place this in your <head>) -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+
+</body>
+</html>
